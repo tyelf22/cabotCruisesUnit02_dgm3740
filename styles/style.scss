@@ -6,6 +6,7 @@
 @import "./footer";
 @import "./socials";
 @import "./myInfo";
+@import "./cruises";
 
 html {
     font-size: 62.5%;
@@ -15,6 +16,7 @@ body {
     overflow-x: hidden;
     width: 100%;
     font-family: 'Arimo', Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
 }
 
 * {

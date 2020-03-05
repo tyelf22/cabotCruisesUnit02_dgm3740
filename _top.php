@@ -24,15 +24,15 @@
         <nav class="clearfix">
             <button id="hamburgerBtn">&#9776;</button>
             <ul id="primaryNav" class="closed">
-                <li id="homeNav" class="btn active"><a href="index.php">Home</a></li>
-                <li id="cruisesNav" class="btn"><a href="cruises.php">Cruises</a></li>
-                <li id="agentsNav" class="btn"><a href="agents.php">Agents</a>
+                <li id="homeNav" ><a href="index.php">Home</a></li>
+                <li id="cruisesNav"><a href="cruises.php">Cruises</a></li>
+                <li id="agentsNav"><a href="agents.php">Agents</a>
                     <ul>
                         <li><a href="#">View Agents</a></li>
                         <li><a href="#">Contact Agents</a></li>
                     </ul>
                 </li>
-                <li id="bookNav" class="btn"><a href="book.php">Book</a></li>
+                <li id="bookNav"><a href="book.php">Book</a></li>
             </ul>
             <form action="#">
                 <input type="search" placeholder="Search..." name="search">

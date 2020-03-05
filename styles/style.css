@@ -66,12 +66,20 @@ nav ul li a {
   border-bottom: solid 1px rgba(0, 0, 0, 0.3);
 }
 
+nav ul li {
+  background-color: #237787;
+}
+
 nav ul li ul li a {
   padding-left: 8%;
 }
 
-nav ul li.active a {
-  background-color: red;
+nav .active {
+  background-color: #2E9BAF;
+}
+
+nav .parent {
+  background: blue;
 }
 
 nav form {
@@ -379,6 +387,74 @@ footer button {
   margin-bottom: 2rem;
 }
 
+.cruises h1 {
+  padding: 0 2rem;
+}
+
+.cruises .cruise .img {
+  padding: 0.5rem;
+}
+
+.cruises .cruise .img img {
+  width: 100%;
+  max-width: 60rem;
+}
+
+.cruises .cruise .desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+}
+
+.cruises .cruise .desc button {
+  margin: 1rem auto;
+  width: 90%;
+  padding: 1rem;
+  border: none;
+  border-radius: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .cruises .cruise {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .cruises .cruise .img {
+    padding: 0.5rem;
+  }
+  .cruises .cruise .img img {
+    width: 350px;
+    height: 150px;
+  }
+  .cruises .cruise .desc {
+    display: block;
+  }
+  .cruises .cruise .desc button {
+    float: right;
+    -ms-flex-item-align: baseline;
+        align-self: baseline;
+    width: 12rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #2E9BAF;
+    color: white;
+  }
+  .cruises .cruise .desc button:hover {
+    background-color: #237787;
+  }
+}
+
 html {
   font-size: 62.5%;
 }
@@ -388,6 +464,7 @@ body {
   overflow-x: hidden;
   width: 100%;
   font-family: 'Arimo', Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
 }
 
 * {
