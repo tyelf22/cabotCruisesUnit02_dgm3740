@@ -42,7 +42,7 @@ nav {
     }
 
     .parent {
-        background: blue;
+        background: darken(#2E9BAF, 10%);
     }
 
     form {
@@ -51,7 +51,7 @@ nav {
 
         input {
             margin: 0.5rem 0;
-            padding: 0.8rem 0;
+            padding: 0.8rem;
             border: none;
             float: right;
             

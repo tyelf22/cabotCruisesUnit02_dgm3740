@@ -26,10 +26,10 @@
             <ul id="primaryNav" class="closed">
                 <li id="homeNav" ><a href="index.php">Home</a></li>
                 <li id="cruisesNav"><a href="cruises.php">Cruises</a></li>
-                <li id="agentsNav"><a href="agents.php">Agents</a>
+                <li id="agentsNav"><a href="#">Agents</a>
                     <ul>
-                        <li><a href="#">View Agents</a></li>
-                        <li><a href="#">Contact Agents</a></li>
+                        <li><a href="agent1.php">Wendi</a></li>
+                        <li><a href="agent2.php">Jeremy</a></li>
                     </ul>
                 </li>
                 <li id="bookNav"><a href="book.php">Book</a></li>

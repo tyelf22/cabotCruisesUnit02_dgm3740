@@ -18,7 +18,7 @@
 
         <div class="cruise">
             <div class="img">
-                <img src="./images/sliders/cabot2Wide.png" alt="picture of cruise ship">
+                <img src="./images/sliders/cabot3Wide.png" alt="picture of cruise ship">
             </div>
             <div class="desc">
             <h2>The Entertainer from $799!</h2>
@@ -30,7 +30,7 @@
 
         <div class="cruise">
             <div class="img">
-            <img src="./images/sliders/cabot3Wide.png" alt="picture of cruise ship">
+            <img src="./images/sliders/cabot2Wide.png" alt="picture of cruise ship">
             </div>
             <div class="desc">
             <h2>The Great White North from $699!</h2>
